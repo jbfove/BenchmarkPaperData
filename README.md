@@ -6,7 +6,7 @@ It may also be used as a general eye-tracker benchmark dataset for testing new d
 
 ## Structure
 
-This repository contains a set of 156 data collections, each corresponding to one participant. The data was collected in 2018 and 2019, primarily in Japan, but also small amounts were collected in various other countries.
+This repository contains a set of 157 data collections, each corresponding to one participant. The data was collected in 2018 and 2019, primarily in Japan, but also small amounts were collected in various other countries.
 
 For each collection, there is a JSON file containing limited information about the participant, especially things of possible relevance to eye-tracker performance, such as ethnicity, eye color, makeup, etc. This data is reported by the participant themselves.
 
@@ -35,8 +35,8 @@ The ETGaze vector is a unit vector representing the output of the eye-tracker ga
 
 The GroundTruth vector is the location of the virtual target that was displayed to the participant in VR.
 
-For datasets 1 through 146, the GroundTruth vector represents the 3D location of the target displayed to the participant in VR. The origin point (0, 0, 0) represents the midpoint between the participants eyes.
+For datasets 1 through 147, the GroundTruth vector represents the 3D location of the target displayed to the participant in VR. The origin point (0, 0, 0) represents the midpoint between the participants eyes.
 
-Datasets 147 through 156 instead use a "real world-based" ground truth definition instead of "projection matrix-based". The ground truth vector is instead defined as a directional unit vector for each eye separately.
+Datasets 148 through 157 instead use a "real world-based" ground truth definition instead of "projection matrix-based". The ground truth vector is instead defined as a directional unit vector for each eye separately.
 
 The VR system used (FOVE 0) has a fixed IPD of 63mm. The participants IPD was not measured.
