@@ -1,14 +1,16 @@
 # Benchmark Paper Data
 
-This repository contains raw data for an eye-tracker benchmark. It can be used to reproduce the results contained in an yet-to-be-published paper (this text will be updated after publication).
+This repository contains raw data for an eye-tracker benchmark. It can be used to reproduce the results contained in the paper [Important Considerations of Data Collection and Curation for Reliable Benchmarking of End-User Eye-Tracking Systems](https://dl.acm.org/doi/proceedings/10.1145/3448017), published with ETRA '21, the ACM Symposium on Eye Tracking Research and Applications.
 
-It may also be used as a general eye-tracker benchmark dataset for testing new data processing methods.
+It is also useful as a generally available real-world eye-tracking dataset for testing data curation and processing methods.
 
 ## Structure
 
 This repository contains a set of 157 data collections, each corresponding to one participant. The data was collected in 2018 and 2019, primarily in Japan, but also small amounts were collected in various other countries.
 
-For each collection, there is a JSON file containing limited information about the participant, especially things of possible relevance to eye-tracker performance, such as ethnicity, eye color, makeup, etc. This data is reported by the participant themselves.
+Each participant was asked to look at a series of random static points in a VR headset, and the 3D virtual location of those points, as well as the eye tracker output, were recorded. Many more details of the collection process are included in the paper.
+
+For each collection, there is a JSON file containing limited information about the participant, especially things of possible relevance to eye-tracker performance, such as ethnicity, eye color, makeup, etc. This data is reported by the participants themselves.
 
 The corresponding CSV for each collection contains the raw data. The data is organized as follows:
 
